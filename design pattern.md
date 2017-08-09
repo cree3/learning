@@ -28,7 +28,7 @@
 
 AudioPlayer 使用适配器类 MediaAdapter 传递所需的音频类型，不需要知道能播放所需格式音频的实际类。AdapterPatternDemo，我们的演示类使用 AudioPlayer 类来播放各种格式。
 
-![适配器模式类图](F:\a+plus\md文档\picture\adapter_pattern_uml_diagram.jpg)
+![适配器模式类图](https://github.com/cree3/learning/blob/picture/adapter_pattern_uml_diagram.jpg)
 
 ### 2.  工厂模式
 [工厂模式详解](http://www.runoob.com/design-pattern/service-locator-pattern.html)
@@ -42,12 +42,12 @@ AudioPlayer 使用适配器类 MediaAdapter 传递所需的音频类型，不需
 
 **缺点**：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。
 
-**实现**：![工厂类类图](F:\a+plus\md文档\picture\factory_pattern_uml_diagram.jpg)
+**实现**：![工厂类类图](https://github.com/cree3/learning/blob/picture/factory_pattern_uml_diagram.jpg)
 ### 3. 抽象工厂例模式
 **抽象工厂 VS 简单工厂**：
 抽象工厂有多个工厂且工厂里有多个生产线；
 简单工厂里一个工厂一条生产线
-![抽象工厂类图](F:\a+plus\md文档\picture\abstractfactory_pattern_uml_diagram.jpg)
+![抽象工厂类图](https://github.com/cree3/learning/blob/picture/abstractfactory_pattern_uml_diagram.jpg)
 ### 4.  状态模式
 [状态模式详解](http://www.runoob.com/design-pattern/state-pattern.html)
 
@@ -58,7 +58,7 @@ AudioPlayer 使用适配器类 MediaAdapter 传递所需的音频类型，不需
 **优点**: 1、封装了转换规则。 2、枚举可能的状态，在枚举状态之前需要确定状态种类。 3、将所有与某个状态有关的行为放到一个类中，并且可以方便地增加新的状态，只需要改变对象状态即可改变对象的行为。 4、允许状态转换逻辑与状态对象合成一体，而不是某一个巨大的条件语句块。 5、可以让多个环境对象共享一个状态对象，从而减少系统中对象的个数。
 
 **实现**：
-![image](F:\a+plus\md文档\picture\state_pattern_uml_diagram.jpg)
+![image](https://github.com/cree3/learning/blob/picture/state_pattern_uml_diagram.jpg)
 ### 5.  单例模式
 **注意**：
 - 1、单例类只能有一个实例。
@@ -162,4 +162,4 @@ public enum Singleton {
 
 
 **实现**：创建一个作为模型的 Student 对象。StudentView 是一个把学生详细信息输出到控制台的视图类，StudentController 是负责存储数据到 Student 对象中的控制器类，并相应地更新视图 StudentView。
-![image](F:\a+plus\md文档\picture\mvc_pattern_uml_diagram.jpg)
+![image](https://github.com/cree3/learning/blob/picture/mvc_pattern_uml_diagram.jpg)
